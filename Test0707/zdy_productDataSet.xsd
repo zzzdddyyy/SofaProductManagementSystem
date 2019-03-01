@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="zdy_productDataSet" targetNamespace="http://tempuri.org/zdy_productDataSet.xsd" xmlns:mstns="http://tempuri.org/zdy_productDataSet.xsd" xmlns="http://tempuri.org/zdy_productDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="zdy_productConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="zdy_productConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Test0707.Properties.Settings.GlobalReference.Default.zdy_productConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="funsofaTableAdapter" GeneratorDataComponentClassName="funsofaTableAdapter" Name="funsofa" UserDataComponentName="funsofaTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="zdy_productConnectionString (Settings)" DbObjectName="zdy_product.funsofa" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `id`, `pcode`, `pname`, `pstyle`, `pprize`, `frame`, `fillter`, `wrapper`, `backrest`, `handrail`, `footrest`, `seatbox`, `teatable`, `mid`, `lay`, `corner` FROM `funsofa`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="zdy_productDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="zdy_productDataSet" msprop:Generator_UserDSName="zdy_productDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="funsofa" msprop:Generator_TableClassName="funsofaDataTable" msprop:Generator_TableVarName="tablefunsofa" msprop:Generator_TablePropName="funsofa" msprop:Generator_RowDeletingName="funsofaRowDeleting" msprop:Generator_RowChangingName="funsofaRowChanging" msprop:Generator_RowEvHandlerName="funsofaRowChangeEventHandler" msprop:Generator_RowDeletedName="funsofaRowDeleted" msprop:Generator_UserTableName="funsofa" msprop:Generator_RowChangedName="funsofaRowChanged" msprop:Generator_RowEvArgName="funsofaRowChangeEvent" msprop:Generator_RowClassName="funsofaRow">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

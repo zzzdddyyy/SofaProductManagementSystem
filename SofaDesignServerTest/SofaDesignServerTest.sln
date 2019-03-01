@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SofaDesignServer", "SofaDesignServer\SofaDesignServer.csproj", "{AEC92678-0F92-4A27-AC8D-03505809C72A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonProtocol", "CommonProtocol\CommonProtocol.csproj", "{CF55856E-0537-499E-988A-0451EC2BF36D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEC92678-0F92-4A27-AC8D-03505809C72A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEC92678-0F92-4A27-AC8D-03505809C72A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEC92678-0F92-4A27-AC8D-03505809C72A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEC92678-0F92-4A27-AC8D-03505809C72A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF55856E-0537-499E-988A-0451EC2BF36D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF55856E-0537-499E-988A-0451EC2BF36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF55856E-0537-499E-988A-0451EC2BF36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF55856E-0537-499E-988A-0451EC2BF36D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {856BC3E7-574D-49C9-83B3-98A6D1251BB1}
+	EndGlobalSection
+EndGlobal
